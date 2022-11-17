@@ -1,0 +1,8 @@
+//Birdクラス
+ class Bird extends Creature{
+	 void speak() {
+		System.out.println("鳴いています");
+	}
+
+	}
+ 

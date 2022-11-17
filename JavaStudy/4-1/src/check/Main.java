@@ -1,0 +1,55 @@
+package check;
+
+public class Main {
+	
+	
+//課題①
+    private static  String firstName = "池田";
+    private static  String lastName = "真子";
+  
+    
+//課題②
+    private static void printName() {
+    	System.out.println("printNameメソッド　→　" + firstName + lastName);
+		
+	} 
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+//課題③	
+	Main.printName();
+	
+	Pet P = new Pet(constants.Constants.CHECK_CLASS_JAVA,constants.Constants.CHECK_CLASS_HOGE);
+	P.introduce();
+
+	
+	RobotPet R = new RobotPet("R2D2","ルーク");
+	R.introduce();
+
+
+	
+
+	
+	
+	
+	
+	
+	 
+
+
+	
+	
+	
+	
+
+
+		
+
+
+	    
+	    
+
+	}
+
+}

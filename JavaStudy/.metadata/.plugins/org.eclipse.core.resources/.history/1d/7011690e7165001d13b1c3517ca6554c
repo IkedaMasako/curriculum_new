@@ -1,0 +1,12 @@
+
+// メイン
+ public class main {
+
+	public static void main(String[] args) {
+		Bird suzume = new Bird();
+		suzume.speak();
+
+	}
+
+}
+

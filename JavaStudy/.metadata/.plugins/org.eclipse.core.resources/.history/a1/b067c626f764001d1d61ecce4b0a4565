@@ -1,0 +1,18 @@
+package study;
+
+public class Sample {
+	
+	 String name;
+	
+	public void setName(String Name) {
+		this.name = Name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+
+ 
+
+}

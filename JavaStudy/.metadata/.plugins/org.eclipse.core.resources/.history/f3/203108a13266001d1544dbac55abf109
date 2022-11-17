@@ -1,0 +1,27 @@
+package check;
+
+public class Main {
+	
+    private String firstName;
+    private String lastName;
+    
+    private Main(String firstName,String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    
+    }
+    
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Main name = new Main("池田", "真子");
+		System.out.println(name.firstName  + name.lastName);
+		
+		
+
+	    
+	    
+
+	}
+
+}

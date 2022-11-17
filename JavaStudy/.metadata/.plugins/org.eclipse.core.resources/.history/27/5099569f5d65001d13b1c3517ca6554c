@@ -1,0 +1,36 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		// メイン処理 クラス　インスタンス　＝new コンストラクタ
+	    public static void main(String[] args) {
+	        Yusha Yusha = new Yusha(); //勇者オブジェクトを生成
+	        Wizard wizard = new Wizard(); //魔法使いオブジェクトを生成
+	        Cleric crelic = new Cleric(); //僧侶オブジェクトを生成
+	        LastBoss lastBoss = new LastBoss(); //ラスボスオブジェクトを生成
+
+	        //敵があらわれた！
+	        System.out.println(lastBoss.getName() + " が あらわれた！");
+
+	        //バトル開始
+	        Yusha.specialAttack(lastBoss); //勇者の攻撃
+	        wizard.magicAttack(lastBoss); //魔法使いの攻撃
+	        lastBoss.specialEvilAttack(Yusha); //ラスボスの攻撃
+	        crelic.healingMagic(Yusha); //僧侶が勇者を回復
+
+	        //回復アイテムを使用
+	        System.out.println(Yusha.getName() + "は　やくそう　をつかった");
+	        Yusha.eatFood("やくそう");
+	        System.out.println(wizard.getName() + "は　まほうのみず　をつかった");
+	        wizard.eatFood("まほうのみず");
+	        System.out.println("");
+	        
+	        
+		        
+		        
+		        
+	}
+
+}

@@ -1,0 +1,19 @@
+package test;
+
+public class Test1 {
+	
+
+	
+	//sayHelloメソッド
+	public static void sayHello() {
+		System.out.println("Hello");
+	}
+ 
+	
+	//メインメソッド
+		public static void main(String[] args) {
+			// TODO 自動生成されたメソッド・スタブ
+			sayHello("太郎");
+
+		}
+}

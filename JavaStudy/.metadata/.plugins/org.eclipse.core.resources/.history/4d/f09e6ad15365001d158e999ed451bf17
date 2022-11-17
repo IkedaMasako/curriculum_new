@@ -1,0 +1,28 @@
+
+public class LastBoss extends Human{
+	
+	public LastBoss() {
+		super.setName("らすぼす");
+		super.setGender(1);
+		super.setLength(210);
+		super.setWeight(120);
+		super.setVitality(500);
+		super.setMagic(40);	
+	}
+	
+	public void specialAttack(Human taeget) {
+		String name = super.getName();
+		super.setVitality(super.getVitality() - 20);
+		System.out.println(name + "の　こうげき");
+		System.out.println(name + "の　ひっさつわざが　さくれつした");
+		
+		target.setVitality(target.getVitality() - 50);
+		System.out.println(target.getName() + "に　50　のダメージを　あたえた");
+		
+		super.setVitality(getVitality() - 10);
+		System.out.println(name + "の　たいりょくは" + super.getVitality()  + "になった");
+		System.out.println("");
+	}	
+	
+
+}

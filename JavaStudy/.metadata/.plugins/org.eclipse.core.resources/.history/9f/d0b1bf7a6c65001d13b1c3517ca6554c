@@ -1,0 +1,13 @@
+
+public class Creature {
+
+//	メソッド
+	public void walk() {
+		System.out.println("あるいています");
+
+		public void walk() {
+			System.out.println("あるいています");
+		
+	}
+	
+}

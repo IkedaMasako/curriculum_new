@@ -1,0 +1,12 @@
+
+package chapter1;
+//Main.java
+
+public class main {
+public static void main(String[] args) {
+Businessman bm = new Businessman();
+      bm.sales();
+bm.rest();
+System.out.println(bm.skill() + "が得意です！");
+}
+}

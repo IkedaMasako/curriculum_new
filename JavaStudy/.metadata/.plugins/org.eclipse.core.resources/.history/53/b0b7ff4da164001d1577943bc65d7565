@@ -1,0 +1,16 @@
+package study;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		getName("Masako","Ikeda");
+		
+	}
+	
+//	getNameメソッド
+	public static void getName(String first,String last) {
+		System.out.println(first + " " + last);
+	} 
+} 	
+

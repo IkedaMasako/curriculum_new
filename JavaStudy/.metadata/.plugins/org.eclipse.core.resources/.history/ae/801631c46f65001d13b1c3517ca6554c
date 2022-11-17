@@ -1,0 +1,32 @@
+
+//Creatureクラス
+ class Creature {
+
+//	メソッド
+	void walk() {
+		System.out.println("あるいています");
+	}
+
+	 void speak() {
+		System.out.println("しゃべっています");
+	}
+}
+
+
+//Birdクラス
+ class Bird extends Creature{
+
+	}
+ 
+
+// メイン
+ public class Sample {
+
+	public static void main(String[] args) {
+		Bird suzume = new Bird();
+		suzume.speak();
+
+	}
+
+}
+
