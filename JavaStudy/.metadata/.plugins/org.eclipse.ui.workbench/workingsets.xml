@@ -4,4 +4,5 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1668392502247_1" label="Java テスト・ソース" name="Java Test Sources"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1668392502674_2" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1668392502674"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1668563780641_3" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1668563780641"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1670373193951_4" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1670373193951"/>
 </workingSetManager>
